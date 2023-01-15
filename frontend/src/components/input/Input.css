@@ -1,0 +1,12 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: blue;
+}
+
+.input {
+  color: red;
+}

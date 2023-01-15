@@ -1,0 +1,58 @@
+.container {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-text {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(217, 139, 44);
+}
+
+.butt {
+  border: 2px solid black;
+  box-shadow: 0 0 5px 0;
+  border-radius: 5px;
+  background-color: rgb(217, 139, 44);
+  font-size: 20px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.butt:hover {
+  border: 4px solid black;
+  opacity: 50%;
+}
+
+.login-register {
+  text-decoration: none;
+  color: rgb(217, 139, 44);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.message-text {
+  font-size: 20px;
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 250px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  outline: none;
+}
